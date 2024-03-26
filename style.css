@@ -1,0 +1,163 @@
+a {
+    text-decoration: none;
+}
+
+.top {
+    margin-left: (50% - 1600px / 2);
+    margin-right: (50% -1600px / 2);
+}
+
+.header {
+    background: rgb(34, 34, 34);
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.header_img {
+    display: flex;
+    justify-content: space-around;
+    gap: 859px;
+    align-items: center;
+}
+
+.left_header {
+    display: flex;
+    gap: 41px;
+}
+
+.right_header {
+    display: flex;
+    gap: 33px;
+}
+
+.content {
+    background: rgb(241, 228, 230);
+}
+
+.top_content {
+    display: flex;
+    align-items: center;
+}
+
+.text_content {
+    display: flex;
+    align-items: center;
+}
+
+.border_logo {
+    padding-right: 16px;
+    padding-left: 63.4px;
+}
+
+.title {
+    max-width: 377px;
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.sub_title {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.pink_title {
+    color: #F16D7F;
+}
+
+.offer {}
+
+.top_offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_card {
+    color: #222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_card {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 47px;
+    margin-top: 6px;
+}
+
+.top_cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 48.5px;
+    max-width: 1140px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    max-width: 360px;
+}
+
+.title_simple_card {
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: left;
+    color: #000000;
+}
+
+.text_simple_card {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: left;
+    color: #5D5D5D;
+}
+
+.price {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #F16D7F;
+}
+
+.button {
+    gap: 10px;
+    background-color: non;
+    color: rgb(242, 99, 118);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgb(255, 106, 106);
+    padding: 1rem 2rem;
+}
